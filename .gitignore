@@ -1,0 +1,59 @@
+# Environment variables
+.env
+
+# Dependency directories
+node_modules/
+venv/
+env/
+.venv/
+
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Build output
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.swp
+
+# Package files
+*.jar
+*.war
+*.ear
+*.zip
+
+# Database files
+*.sqlite3
+
+# Backup files
+*.bak
+*~
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# React / Next.js
+.next/
+out/
+
+# Miscellaneous
+*.class
+*.lock
