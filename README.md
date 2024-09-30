@@ -19,11 +19,30 @@ This guide outlines how to test and connect to BSC Scan (Binance Smart Chain) on
 2. Get testnet BNB from the [BSC Testnet Faucet](https://testnet.binance.org/faucet-smart)
 
 3. Add BSC Testnet to MetaMask:
+
    - Network Name: BSC Testnet
    - New RPC URL: https://data-seed-prebsc-1-s1.binance.org:8545/
    - Chain ID: 97
    - Currency Symbol: BNB
    - Block Explorer URL: https://testnet.bscscan.com
+
+4. Obtain your private key from MetaMask:
+
+   - Open MetaMask and click on the account icon in the top-right corner.
+   - Select "Account details".
+   - Click on "Export Private Key".
+   - Enter your MetaMask password when prompted.
+   - Copy the displayed private key.
+
+   IMPORTANT: Never share your private key with anyone or commit it to version control. Always use environment variables or secure key management systems to store sensitive information.
+
+5. Set up your environment variables:
+   - Create a `.env` file in your project root (if it doesn't exist).
+   - Add your private key to the `.env` file:
+     ```
+     METAMASK_PRIVATE_KEY=your_private_key_here
+     ```
+   - Make sure to add `.env` to your `.gitignore` file to prevent accidentally committing it.
 
 ## Connecting to BSC Testnet
 
